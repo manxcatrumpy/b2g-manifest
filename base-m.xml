@@ -7,10 +7,11 @@
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
+  <remote name="b2g-andy" fetch="git@git.kaiostech.com:andy/"/>
 
   <!-- Gaia and Gecko -->
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="v2.6"/>
+  <project name="gecko48" path="gecko" remote="b2g-andy" revision="b2g48_v2_6_m"/>
 
   <!-- Gonk-specific things -->
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
